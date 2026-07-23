@@ -31,7 +31,7 @@
         "babel-plugin-istanbul": "^6.1.1",
         "chartjs-plugin-colorschemes": "^0.4.0",
         "cross-env": "^7.0.3",
-        "eslint": "^8.57.0",
+        "eslint": "npm:@neverendingsupport/eslint@8.57.1-eslint-8.57.2",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-plugin-import": "^2.25.2",
         "eslint-plugin-jest": "^26.1.5",
@@ -47,7 +47,7 @@
         "sass-loader": "^12.6.0",
         "tailwindcss": "^3.4.10",
         "vue-loader": "^15.10.0",
-        "vue-template-compiler": "^2.7.16",
+        "vue-template-compiler": "npm:@neverendingsupport/vue-template-compiler@2.7.16-vue-2.7.25",
         "webpack-bundle-analyzer": "^4.10.2"
     },
     "dependencies": {
@@ -68,7 +68,7 @@
         "@processmaker/vue-multiselect": "2.3.2",
         "@tinymce/tinymce-vue": "2.0.0",
         "axios": "^0.27.2",
-        "bootstrap": "^4.5.3",
+        "bootstrap": "npm:@neverendingsupport/bootstrap@4.6.2-bootstrap-4.6.5",
         "bootstrap-vue": "^2.18.1",
         "bpmn-font": "^0.10.0",
         "bpmn-moddle": "^6.0.2",
@@ -103,7 +103,7 @@
         "tinymce": "5.10.0",
         "tooltip.js": "^1.3.3",
         "v-tooltip": "^2.0.3",
-        "vue": "^2.7.16",
+        "vue": "npm:@neverendingsupport/vue@2.7.16-vue-2.7.25",
         "vue-chartjs": "^3.5.0",
         "vue-color": "^2.7.1",
         "vue-cookies": "^1.8.2",
@@ -114,7 +114,7 @@
         "vue-monaco": "^1.2.1",
         "vue-password": "^1.2.0",
         "vue-resource": "^1.5.1",
-        "vue-router": "^3.6.5",
+        "vue-router": "npm:@neverendingsupport/vue-router@3.6.6",
         "vue-simple-uploader": "^0.7.6",
         "vue-uniq-ids": "^1.0.0",
         "vuedraggable": "^2.24.3",
@@ -153,5 +153,8 @@
     "engines": {
         "npm": ">=8",
         "node": ">=16"
+    },
+    "overrides": {
+        "elliptic": "npm:@neverendingsupport/elliptic@6.6.1-elliptic-6.6.3"
     }
 }
