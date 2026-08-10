@@ -153,5 +153,8 @@
     "engines": {
         "npm": ">=8",
         "node": ">=16"
+    },
+    "overrides": {
+        "debug": "3.2.7"
     }
 }
