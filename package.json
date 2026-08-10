@@ -153,5 +153,8 @@
     "engines": {
         "npm": ">=8",
         "node": ">=16"
+    },
+    "overrides": {
+        "@ungap/structured-clone": "1.3.1"
     }
 }
